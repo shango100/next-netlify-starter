@@ -20,9 +20,7 @@ export default function Home() {
   <p>
     <label>Dog’s Name: <input type="text" name="name" /></label>   
   </p>
-  <p>
-    <label>Dog’s Picture: <input type="file" name="picture" /></label>
-  </p>
+ 
   <p>
     <button type="submit">Send</button>
   </p>
