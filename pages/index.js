@@ -16,7 +16,7 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
       </main>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" action="thank-you">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
