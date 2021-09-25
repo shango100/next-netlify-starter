@@ -15,6 +15,18 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+    
+    <form name="dogPictures" method="POST" data-netlify="true">
+  <p>
+    <label>Dog’s Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Dog’s Picture: <input type="file" name="picture" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
       </main>
 
       <Footer />
