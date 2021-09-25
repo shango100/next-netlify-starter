@@ -16,7 +16,7 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
     
-    <form name="dogPictures"  data-netlify="true" action="/pages/success">
+    <form name="dogPictures"  data-netlify="true" action="https://successin100pages.com/">
   <p>
     <label>Dog’s Name: <input type="text" name="name" /></label>   
   </p>
